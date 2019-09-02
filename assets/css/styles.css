@@ -1,0 +1,38 @@
+.head {
+    border-bottom-style: solid;
+    border-color: #cccccc;
+    border-width:2px;
+    text-align:center;
+    width:960px;
+    color:#ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#title {
+    background-color: #4aaaa5;
+    
+    display:inline;
+    
+}
+.navigation {
+    background-color:#ffffff;
+    color:#777777;
+    display:inline;
+    padding-top:20px;
+    float:right;
+
+}
+#subtitle {
+    color:#777777;
+    display:inline;
+    font-family:'Arizonia';
+    
+}
+a:link {
+    text-decoration:none;
+    color:#777777;
+    
+}
+a:visited {
+    text-decoration:none;
+    color:#777777;
+}
