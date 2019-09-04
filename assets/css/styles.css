@@ -66,6 +66,7 @@ footer {
     border-color:#4aaaa5;
     border-width:7px;
     color:white;
+   
 
 }
 h2 {
@@ -118,6 +119,98 @@ hr {
     margin-top:10px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-   
+    display: inline-block; 
+    cursor: pointer; 
 }
+.button:hover {
+    background-color:black;
+}
+.linkpic {
+    box-sizing: border-box;
+    left:20px;
+    margin-bottom:30px;
+    margin-left:20px;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #777777;
+
+   
+    
+}
+.btn1, .btn2, .btn3 {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:30px;
+    padding-right:30px;
+    margin-top:10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.container {
+    position: relative;
+    width: 50%;
+    
+  }
+   
+  .container .btn1 {
+    position: absolute;
+    top:-2px;
+    left:20px;
+    font-size: 16px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:80px;
+    padding-right:63px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn1:hover {
+    background-color: black;
+  }
+  .container .btn2 {
+    position: absolute;
+    top:-2px;
+    left:20px;
+    font-size: 16px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:34px;
+    padding-right:34px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn2:hover {
+    background-color: black;
+  }
+  .container .btn3 {
+    position: absolute;
+    top:-2px;
+    left:20px;
+    font-size: 16px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:60px;
+    padding-right:40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn3:hover {
+    background-color: black;
+  }
+  #bassoonpic {
+      position:absolute;
+      top:100px;
+      left:300px;
+      float:left;
+     
+  }
