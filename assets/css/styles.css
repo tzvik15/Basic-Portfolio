@@ -10,7 +10,14 @@
     text-align:center;
     color:#ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color:#ffffff
+    background-color:#ffffff;
+    width:100%;
+    padding-top:8px;
+    position:absolute;
+    top:0;
+    
+   
+    
    
     
 }
@@ -45,7 +52,7 @@ a:visited {
 }
 .about {
     position:relative;
-    top:25px;
+    top:75px;
     border-left:1px solid #cccccc;
     border-right:1px solid #cccccc;
     border-bottom:1px solid #cccccc;
@@ -58,19 +65,21 @@ a:visited {
     padding-left:20px;
     
 }
-.back {
+html {
     background-image: url(../images/symphony.png);
+    
 }
 footer {
     background-color:#666666;
     padding-top:10px;
     padding-bottom:10px;
-    position:relative;
-    top:80px;
+    position:fixed;
+    bottom:0;
     border-top-style:solid;
     border-color:#4aaaa5;
     border-width:7px;
     color:white;
+    width:100%;
    
 
 }
@@ -95,7 +104,7 @@ hr {
     padding-bottom:20px;
     padding-top:-20px;
     position:relative;
-    top:25px;
+    top:75px;
     border-left:1px solid #cccccc;
     border-right:1px solid #cccccc;
     border-bottom:1px solid #cccccc;
@@ -219,3 +228,4 @@ hr {
       float:left;
      
   }
+ 
